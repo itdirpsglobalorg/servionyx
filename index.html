@@ -149,12 +149,19 @@
     <div class="container">
       <div class="contact-form">
         <h2>Contact Us</h2>
-        <form>
+		  <form action="https://formspree.io/f/mjkpalla" method="POST">
+  			<input type="text" name="name" placeholder="Your Name" required>
+  			<input type="email" name="email" placeholder="Your Email" required>
+ 			<textarea name="message" placeholder="Your Message" required></textarea>
+  			<button type="submit" class="btn primary">Submit Request</button>
+		</form>
+
+<!--        <form>
           <input type="text" placeholder="Name" required>
           <input type="email" placeholder="Email" required>
           <textarea placeholder="Message" required></textarea>
           <button type="submit" class="btn primary">Submit Request</button>
-        </form>
+        </form>  -->
       </div>
       <div class="contact-info">
         <h3>Our Office</h3>
@@ -172,4 +179,5 @@
   </footer>
 </body>
 </html>
+
 
